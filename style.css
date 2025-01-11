@@ -1,13 +1,17 @@
-#bdy {
+* {
     margin: 0;
     padding: 0;
 }
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
 .header {
-    height: 75vh;
+    
     display: flex;
     flex-direction: column;
     gap: 100px;
-    padding: 10px 250px 10px 250px;
+    margin: 0 auto;
     background-color: #1f2937;
     font-family: roboto;
     color: #f9faf8;
@@ -62,13 +66,63 @@ button {
     padding: 10px;
     margin: 5px;
 }
-
+/*-------------------------------------------------------------------------------*/
 .div1 {
-    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 250px 10px 250px;
+    
 }
+#div1-title {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    
+}
+#div1-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 80px;
+    
+}
+.d1i{
+    height: 200px;
+    width: 200px;
+    
+}
+
+/*-------------------------------------------------------------------------------*/
 .div2 {
-    height: 75vh;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 250px 10px 250px;
+
 }
-.div3 {
-    height: 75vh;
+#div2-para1 {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div2-para2 {
+    font-size: 36px;
+    justify-content: end;
+    display: flex;
+}
+/*-------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------*/
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    display: flex;
+    padding: 25px;
+
 }
