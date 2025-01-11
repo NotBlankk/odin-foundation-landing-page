@@ -65,17 +65,23 @@
 button {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 0px 20px;
-    margin: 5px;
+    
     border: 2px solid white;
-    height: 20px;
-    border-radius: 2%;
+    
+    
+
+    padding: 10px 30px; 
+    margin: 0px; 
+     
+    
+    border-radius: 5%;
 }
+
 /*-------------------------------------------------------------------------------*/
 .div1 {
     display: flex;
     flex-direction: column;
-    padding: 10px 250px 10px 250px;
+    padding: 30px 250px 150px 250px;
     
 }
 #div1-title {
@@ -97,8 +103,14 @@ button {
 .d1i{
     height: 200px;
     width: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 5%;
     
 }
+.d1p {
+    text-align: center;
+}
+
 
 /*-------------------------------------------------------------------------------*/
 .div2 {
@@ -107,6 +119,9 @@ button {
     flex-direction: column;
     padding: 10px 250px 10px 250px;
 
+}
+#d2-c {
+    padding: 100px 0px;
 }
 #div2-para1 {
     font-size: 36px;
@@ -125,16 +140,17 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     border-radius:1%;
-    margin: 50px;
-    padding: 25px 80px 25px 80px;
+    margin: 100px 0px;
+    padding: 40px 80px;
     border-radius: 2%;
     display: flex;
 }
 #div3-txt {
-    flex: .6;
+    flex: 1;
+    font-size: 18px;
 }
 #div3-button {
-    flex: .4;
+    flex: .3;
     display: flex;
     justify-content: center;
     align-content: center;
