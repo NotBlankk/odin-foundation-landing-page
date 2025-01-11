@@ -21,6 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 #ht-left {
     flex: 1;
@@ -54,6 +55,7 @@
 #header-content {
     display: flex;
     justify-content: space-between;
+    padding: 100px 0px;
     
 
 }
@@ -63,8 +65,11 @@
 button {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 10px;
+    padding: 0px 20px;
     margin: 5px;
+    border: 2px solid white;
+    height: 20px;
+    border-radius: 2%;
 }
 /*-------------------------------------------------------------------------------*/
 .div1 {
@@ -113,8 +118,28 @@ button {
     font-size: 36px;
     justify-content: end;
     display: flex;
+    font-weight: bold;
 }
 /*-------------------------------------------------------------------------------*/
+.lol {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius:1%;
+    margin: 50px;
+    padding: 25px 80px 25px 80px;
+    border-radius: 2%;
+    display: flex;
+}
+#div3-txt {
+    flex: .6;
+}
+#div3-button {
+    flex: .4;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
 
 
 /*-------------------------------------------------------------------------------*/
